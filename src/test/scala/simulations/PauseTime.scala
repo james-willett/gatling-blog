@@ -7,7 +7,7 @@ import scala.concurrent.duration._
 
 class PauseTime extends Simulation {
 
-  val httpConf = http.baseUrl("http://video-game-db.eu-west-2.elasticbeanstalk.com/swagger-ui/index.html")
+  val httpConf = http.baseUrl("http://video-game-db.eu-west-2.elasticbeanstalk.com/app/")
     .header("Accept", "application/json")
 
   val scn = scenario("Video Game DB - Different Types of Pause")
